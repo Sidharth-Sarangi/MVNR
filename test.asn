@@ -1,0 +1,10 @@
+StudentModule DEFINITIONS ::= BEGIN
+
+Student ::= SEQUENCE {
+    name    UTF8String,
+    id      INTEGER
+}
+
+END
+
+
